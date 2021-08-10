@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Learning Bootstrap</title>
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light fixed-top">
+  <a class="navbar-brand" href="#navbarNavAltMarkup">OnePageSite</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#hero">Home</span></a>
+      <a class="nav-item nav-link active" href="#service">Service</a>
+      <a class="nav-item nav-link active" href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+</div>
+<div class="container-fluid hero" id="hero">
+
+	<video  autoplay muted loop >
+		<source type="video/ogg" src="HP.ogg" >
+		<source type="video/mp4" src="HP.mp4" >
+
+	</video>
+	<h2>Secure your future with tech! &#128525; &#128151;</h2>
+</div>
+<!-- div class="space"></div>< -->
+<div class="container-fluid align-middle bg-light min-vh-100" > 
+	<div class="container">
+	<div class="text-center text-dark py-3 pt-5 pb-5"><h2 id="service">Services</h2></div>
+	<div class="row mt-6">
+		<div class="col-md-4">
+			
+			<div class="container shadow"> <h3>Heading One</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+				sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+		<div class="col-md-4">
+			
+			<div class="container shadow"> <h3>Heading Two</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+		<div class="col-md-4">
+			
+			<div class="container shadow"> <h3>Heading Three</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid bg-dark text-light align-middle min-vh-100" >
+	<div class="container py-3 ">
+		<div class="text-center py-3  text-light mt-5 py-3" ><h3 id="contact">Contact</h3></div>
+		<div class="row mt-5">
+			<div class="col-sm-6">
+				
+				<div class="container shadow"><h2>About</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			</div>
+			<div class="col-sm-6">
+				<h2>Contact</h2>
+				<form>
+					<!-- <div class=""><h4>COntact Form</h4></div> -->
+					<div class="form-group">
+						<input type="text" name="" class="form-control" placeholder="Full Name">
+					</div>
+					<div class="form-group mt-3">
+						<input type="text" name="Subject" class="form-control" placeholder="Subject">
+					</div>
+					<div class="form-group mt-3">
+						<textarea placeholder="Message" class="form-control" cols="10" rows="5"></textarea>
+					</div>
+					<div class="text-ligth mt-2"> <button class="btn btn-primary btn-block">Submit</button></div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div  style="margin-top:0px !important; border:6px solid #000;">
+	<div class="container text-center mt-4 py-3 text-danger ">
+		&copy;<script type="text/javascript"> document.write(new Date().getFullYear())</script> All Rights Reserved
+	</div>
+</div>
+
+
+<style type="text/css">
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+.hero{
+	width:100%;
+	height:auto;
+	position relative;
+	top:0px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-position: contain;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+
+.hero h2{
+	position:absolute;
+	text-align: center;
+	color:white;
+	font-size: 2rem;
+	text-transform: uppercase;
+
+}
+
+@media screen and (max-width:500px){
+	.container.fluid, .row, .container{
+		display:block;
+		height:auto;
+
+	}
+}
+</style>
+
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
